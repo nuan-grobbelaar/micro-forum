@@ -1,0 +1,98 @@
+html {
+  background-attachment: fixed; 
+  /* background-color: rgba(0 ,0, 0, 1); ; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.grid {
+  background-color: rgba(255, 255, 255, .15);   
+  padding-right: 24px;
+  border-radius: 10px;
+  height: 105%;
+  padding: 10px;
+}
+
+.card {
+  color: rgba(0, 0, 0, 1) !important;
+  background-color: rgba(200, 200, 200, .80) !important;   
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 94.65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.experience-card {
+  padding-left: 15px;
+}
+
+.box-alt {
+  color: rgba(255, 255, 255, 1) !important;
+  background-color: inherit !important;   
+  border: none;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-media {
+  padding-top: 0%;
+  margin-bottom: 24px;
+}
+
+.listText {
+  font-size: 5px !important;
+
+}
+
+@media screen and (max-width: 720px) {
+  .box {
+    height: 100vh + 1.5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: calc(3rem - 24px);
+    padding-bottom: 1.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+  
+  .card:hover { 
+    padding: 16px;
+  }
+  
+  .card-alt {
+    padding: 15px;
+  }
+  
+  .card-alt:hover {  
+    padding: 16px;
+  }
+
+  .timeline-info {
+    display: none !important;
+    padding-right: 0px;
+  }
+}
